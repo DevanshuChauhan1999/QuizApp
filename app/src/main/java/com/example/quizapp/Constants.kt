@@ -11,14 +11,14 @@ object Constants {
 
         val ques1 = Question(
             1, "What country does this belong to?",R.drawable.ic_flag_of_argentina,
-            "Argentina","Australia","Armenia","Australia",1
+            "Argentina","Australia","Armenia","Albania",1
 
         )
         questionList.add(ques1)
 
         val ques2 = Question(
             1, "What country does this belong to?",R.drawable.ic_flag_of_australia,
-            "Argentina","Australia","Armenia","Australia",2
+            "Argentina","Australia","Armenia","Albania",2
 
         )
         questionList.add(ques2)

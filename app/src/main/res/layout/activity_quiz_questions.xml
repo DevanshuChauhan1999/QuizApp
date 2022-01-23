@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuizQuestionsActivity"
+    android:background="@drawable/ic_background2"
     android:fillViewport="true"
     >
     <LinearLayout
@@ -14,6 +15,7 @@
         android:orientation="vertical"
         android:gravity="center"
         >
+
         <TextView
             android:id="@+id/tv_question"
             android:layout_width="match_parent"
@@ -45,7 +47,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:max="9"
+                android:max="10"
                 android:minHeight="50dp"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:indeterminate="false"
@@ -58,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="15dp"
-                android:text="0/9"
+                android:text="0/10"
                 android:textSize="14sp" />
         </LinearLayout>
 
